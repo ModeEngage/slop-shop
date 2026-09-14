@@ -1,0 +1,9 @@
+{
+  "name": "funnel",
+  "version": "0.1.0",
+  "description": "Skills for writing and executing Linear work.",
+  "author": {
+    "name": "slop-shop contributors"
+  },
+  "skills": "./skills/"
+}

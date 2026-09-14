@@ -1,0 +1,14 @@
+{
+  "name": "slop-shop",
+  "description": "Shared agent skills for repository work.",
+  "owner": {
+    "name": "slop-shop contributors"
+  },
+  "plugins": [
+    {
+      "name": "funnel",
+      "source": "./plugins/funnel",
+      "description": "Skills for writing and executing Linear work."
+    }
+  ]
+}

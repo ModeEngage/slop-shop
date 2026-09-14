@@ -1,0 +1,20 @@
+{
+  "name": "slop-shop",
+  "interface": {
+    "displayName": "Slop Shop"
+  },
+  "plugins": [
+    {
+      "name": "funnel",
+      "source": {
+        "source": "local",
+        "path": "./plugins/funnel"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

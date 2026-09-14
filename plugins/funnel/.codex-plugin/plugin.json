@@ -1,0 +1,23 @@
+{
+  "name": "funnel",
+  "version": "0.1.0",
+  "description": "Skills for writing and executing Linear work.",
+  "author": {
+    "name": "slop-shop contributors"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Funnel",
+    "shortDescription": "Skills for writing and executing Linear work.",
+    "longDescription": "Write Linear issues and execute research, prototype, and interview assignments.",
+    "developerName": "slop-shop contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Help me draft a Linear issue."
+    ]
+  }
+}
