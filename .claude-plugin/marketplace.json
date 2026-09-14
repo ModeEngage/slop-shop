@@ -8,7 +8,7 @@
     {
       "name": "funnel",
       "source": "./plugins/funnel",
-      "description": "Skills for writing and executing Linear work."
+      "description": "Skills for Linear work, Git commits, and pull requests."
     }
   ]
 }

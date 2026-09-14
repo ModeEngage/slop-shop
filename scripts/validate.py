@@ -35,6 +35,13 @@ def validate(root):
             frontmatter = re.match(r"\A---\n(.*?)\n---\n(.+)", content, re.DOTALL)
             require(frontmatter, f"Missing skill frontmatter or body: {skill}")
             fields = dict(re.findall(r"^([a-z-]+): (.+)$", frontmatter[1], re.MULTILINE))
+            if fields.get("description") in (">", ">-", ">+"):
+                description = re.search(
+                    r"^description: >[-+]?\n((?:[ \t]+[^\n]*(?:\n|$)|\n)*)",
+                    frontmatter[1],
+                    re.MULTILINE,
+                )
+                fields["description"] = " ".join(description[1].split()) if description else ""
             require(fields.get("name") == skill.name, f"Invalid skill name: {skill}")
             require(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", skill.name) and len(skill.name) <= 64, f"Invalid skill name: {skill}")
             require(fields.get("description", "").strip(), f"Missing skill description: {skill}")

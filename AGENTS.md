@@ -71,8 +71,11 @@ See the [Claude Code plugin format](https://code.claude.com/docs/en/plugins).
 - When adding or removing a plugin, update all three catalogs. Adding a skill
   to an existing plugin does not require a new catalog entry.
 - Use lowercase letters, digits, and hyphens for skill names. Match the folder
-  name to frontmatter `name`. Use an unquoted, single-line `description` to match
-  the repository validator's supported metadata format.
+  name to frontmatter `name`. Use an unquoted `description` or a folded YAML
+  scalar (`description: >-`) with indented continuation lines.
+- Wrap Markdown prose and frontmatter at 120 characters. Prefer sentence boundaries
+  when practical. Use folded YAML scalars for long frontmatter descriptions.
+  Preserve code blocks and URLs that cannot be split without changing their meaning.
 - Keep shared instructions independent of host-specific tool names and variables.
   Check current host documentation before adding hooks or MCP configuration;
   those formats can differ between hosts.

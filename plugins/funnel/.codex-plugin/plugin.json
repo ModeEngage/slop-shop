@@ -1,15 +1,15 @@
 {
   "name": "funnel",
   "version": "0.1.0",
-  "description": "Skills for writing and executing Linear work.",
+  "description": "Skills for Linear work, Git commits, and pull requests.",
   "author": {
     "name": "slop-shop contributors"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "Funnel",
-    "shortDescription": "Skills for writing and executing Linear work.",
-    "longDescription": "Write Linear issues and execute research, prototype, and interview assignments.",
+    "shortDescription": "Skills for Linear work, Git commits, and pull requests.",
+    "longDescription": "Write and execute Linear work, commit changes, and create or update pull requests.",
     "developerName": "slop-shop contributors",
     "category": "Productivity",
     "capabilities": [
