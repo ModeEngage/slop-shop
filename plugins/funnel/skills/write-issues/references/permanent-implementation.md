@@ -61,7 +61,7 @@ Title: [Desired value or behavior]
 
 Description:
 
-Issue type: Implementation: permanent
+slop:implementation
 
 ## Problem Statement
 
@@ -97,7 +97,8 @@ difficult to apply to a concrete bug or high-risk migration.
 Read [in-progress-work.md](in-progress-work.md) when the issue documents work that has already
 started or been completed.
 
-Use an established type marker instead of the fallback line when available. Omit Intent when it adds no context.
+Omit the marker line only when the matching `slop:implementation` issue label is applied.
+Omit Intent when it adds no context.
 
 ## Validation
 

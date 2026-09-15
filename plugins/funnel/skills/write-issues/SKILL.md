@@ -33,10 +33,24 @@ Before revising an issue in Linear, read [references/update-existing-issue.md](r
 The type references define issue-writing guidance. Research, prototype, and interview assignments name the skill
 that executes the work. Their output formats load only when writing or updating the selected issue type.
 
-Make the selected type clear in the draft. Use an established type marker when one exists. Otherwise, use a plain
-`Issue type:` line with the type and subtype from the table. This is a readable fallback, not a machine-routing contract.
-The durable mechanism remains open: existing Linear labels, text tags, or an attachment may identify the type.
-Do not create labels or add an attachment convention without user direction.
+### Execution Markers
+
+Select exactly one execution marker for the issue:
+
+| Issue type | Marker |
+| --- | --- |
+| Implementation: permanent | `slop:implementation` |
+| Implementation: prototype | `slop:prototype` |
+| Research | `slop:research` |
+| Interview | `slop:interview` |
+
+Include the exact lowercase marker on a standalone line in the draft description. When creating or updating the
+issue, use the matching existing issue label when available. The description line can be omitted when that label
+is applied. If no matching label exists, keep the description marker; do not create labels without user direction.
+
+The [execute-issue](../execute-issue/SKILL.md) skill routes from these exact labels or standalone description markers.
+If both are present, they must agree. Resolve conflicting markers before saving the issue. Generic type names,
+`Issue type:` lines, and attachments alone do not provide an execution marker. Preserve unrelated labels.
 
 ## Linear Context
 
@@ -158,6 +172,8 @@ Prototype assignments must explicitly require the execute-prototype-issue skill.
 Before finalizing, verify:
 
 - The type is clear and its reference was used.
+- Exactly one execution type is declared by a supported `slop:` label or standalone description marker; both agree
+  when present.
 - The Problem Statement describes the problem and necessary context, not a solution.
 - Intent, when present, explains the human's reason for requesting the work without inventing motivation or repeating
   the Problem Statement.

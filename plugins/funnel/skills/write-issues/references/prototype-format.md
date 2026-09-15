@@ -5,7 +5,7 @@ Title: [Concept or behavior to prototype]
 
 Description:
 
-Issue type: Implementation: prototype
+slop:prototype
 
 Use the `execute-prototype-issue` skill to build the artifact and collect feedback.
 
@@ -43,5 +43,5 @@ issue; keep detailed findings in the attachment and preserve unrelated project c
 Problem Statement, Prototype and Feedback, and the findings-recording instructions are required. Omit Intent,
 Constraints, and Completion Criteria when they add no information. Do not invent feedback or findings when drafting.
 
-Use an established type marker instead of the fallback line when available. Omit the repository tag when unknown;
+Omit the marker line only when the matching `slop:prototype` issue label is applied. Omit the repository tag when unknown;
 otherwise, keep it as the final description line.

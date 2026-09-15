@@ -5,7 +5,7 @@ Title: [Concept, design, or idea to refine]
 
 Description:
 
-Issue type: Interview
+slop:interview
 
 Use the `execute-interview-issue` skill to conduct the interview and record its findings.
 
@@ -43,5 +43,5 @@ this issue; keep detailed findings in the attachment and preserve unrelated proj
 Problem Statement, Concept to Refine, and the findings-recording instructions are required. Omit Intent, Constraints,
 and Completion Criteria when they add no information. Do not invent decisions or a confirmed synthesis when drafting.
 
-Use an established type marker instead of the fallback line when available. Omit the repository tag when unknown;
+Omit the marker line only when the matching `slop:interview` issue label is applied. Omit the repository tag when unknown;
 otherwise, keep it as the final description line.
