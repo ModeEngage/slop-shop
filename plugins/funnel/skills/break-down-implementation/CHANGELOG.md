@@ -2,10 +2,11 @@
 
 ## 0.1.1 - 2026-09-26
 
-- **What**: Shorten the skill entrypoint and replace session-size rules with checks for clear, verifiable outcomes.
-- **Why**: The entrypoint was too long, and an agent cannot reliably predict work duration by session.
-- **Evidence**: The user reported truncation and challenged the session-size requirement.
-- **Impact**: The workflow uses less context and divides work by observable boundaries instead of estimated duration.
+- **What**: Shorten the entrypoint, replace session-size rules with verifiable outcomes, and defer issue-writing guidance
+  until issues are drafted or revised.
+- **Why**: The entrypoint was too long, session duration is uncertain, and early reference loading wastes context.
+- **Evidence**: The user reported truncation, challenged session-size rules, and identified early reference loading.
+- **Impact**: The workflow uses less context before drafting and divides work by observable boundaries.
 - **Reference**: This session's requests and the existing `write-issues` guidance.
 
 ## 0.1.0 - 2026-09-15

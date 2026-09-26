@@ -16,12 +16,11 @@ Stop after a verified breakdown. Do not implement, assign agents, or dispatch wo
 Read the issue, project, descendants, dependencies, and linked decisions. Inspect relevant code, tests, and
 documentation read-only. Keep durable links and paths for later sessions.
 
-Read [write-issues](../write-issues/SKILL.md), its permanent implementation reference, and its update guidance before
-editing existing issues. Confirm settled scope and verifiable acceptance criteria. Ask only for material information
-that context cannot supply. Do not make suggested implementation details mandatory. Send product or research gaps that
-change the assignment to [plan-project](../plan-project/SKILL.md), or to the user without a project. Do not hide gaps
-in sub-issues; ordinary implementation choices need no planning round. If no useful separate outcomes can be
-defined, report that no breakdown is needed. Do not create a single leaf merely to make a hierarchy.
+Confirm settled scope and verifiable acceptance criteria. Ask only for material information that context cannot
+supply. Do not make suggested implementation details mandatory. Send product or research gaps that change the
+assignment to [plan-project](../plan-project/SKILL.md), or to the user without a project. Do not hide gaps in
+sub-issues; ordinary implementation choices need no planning round. If no useful separate outcomes can be defined,
+report that no breakdown is needed. Do not create a single leaf merely to make a hierarchy.
 
 ## Divide the Outcome
 
@@ -48,6 +47,10 @@ scope permits it. Never block a child on its parent. Check for cycles and missin
 not stop active agents; report conflicts with active assignments.
 
 ## Draft or Apply
+
+When writing issue bodies or choosing metadata, read [write-issues](../write-issues/SKILL.md) and its
+[permanent implementation reference](../write-issues/references/permanent-implementation.md). Before revising an
+existing issue, also read its [update guidance](../write-issues/references/update-existing-issue.md).
 
 Show linked existing issues and temporary keys for new ones, proposed bodies, blockers and reasons, ready leaves,
 parent-criteria coverage, edits, and material metadata. A draft request authorizes a draft. A create or revise request
