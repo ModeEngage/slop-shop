@@ -2,12 +2,13 @@
 
 ## 0.1.1 - 2026-09-26
 
-- **What**: Shorten the entrypoint, replace session-size rules with verifiable outcomes, and defer issue-writing guidance
-  until issues are drafted or revised.
-- **Why**: The entrypoint was too long, session duration is uncertain, and early reference loading wastes context.
-- **Evidence**: The user reported truncation, challenged session-size rules, and identified early reference loading.
-- **Impact**: The workflow uses less context before drafting and divides work by observable boundaries.
-- **Reference**: This session's requests and the existing `write-issues` guidance.
+- **What**: Shorten the entrypoint, replace session-size rules with verifiable outcomes, defer issue-writing guidance,
+  use the interview skill for breakdown choices, and apply changes unless the user requests a draft.
+- **Why**: Session duration is uncertain, early reference loading wastes context, and breakdown choices can need user
+  input without reopening product design.
+- **Evidence**: The user reported truncation and identified session-size, reference-loading, and draft-flow problems.
+- **Impact**: The workflow uses less context, divides work by observable boundaries, and routes questions by type.
+- **Reference**: This session's requests and the `write-issues`, `interview`, and `plan-project` skills.
 
 ## 0.1.0 - 2026-09-15
 

@@ -16,11 +16,13 @@ Stop after a verified breakdown. Do not implement, assign agents, or dispatch wo
 Read the issue, project, descendants, dependencies, and linked decisions. Inspect relevant code, tests, and
 documentation read-only. Keep durable links and paths for later sessions.
 
-Confirm settled scope and verifiable acceptance criteria. Ask only for material information that context cannot
-supply. Do not make suggested implementation details mandatory. Send product or research gaps that change the
-assignment to [plan-project](../plan-project/SKILL.md), or to the user without a project. Do not hide gaps in
-sub-issues; ordinary implementation choices need no planning round. If no useful separate outcomes can be defined,
-report that no breakdown is needed. Do not create a single leaf merely to make a hierarchy.
+Confirm settled scope and verifiable acceptance criteria. Do not make suggested implementation details mandatory.
+If a material choice about how to divide settled work needs user input, use the [interview skill](../interview/SKILL.md).
+Send unresolved product or design decisions, or research gaps that affect scope or criteria, to
+[plan-project](../plan-project/SKILL.md), or to the user without a project. Explain the gap and affected work before
+wider project planning resumes. Do not hide gaps in sub-issues; ordinary implementation choices need no planning
+round. If no useful separate outcomes can
+be defined, report that no breakdown is needed. Do not create a single leaf merely to make a hierarchy.
 
 ## Divide the Outcome
 
@@ -46,15 +48,16 @@ Keep consumers of the full feature dependent on the parent; narrow this only whe
 scope permits it. Never block a child on its parent. Check for cycles and missing prerequisites. Tracker edits do
 not stop active agents; report conflicts with active assignments.
 
-## Draft or Apply
+## Write and Apply the Breakdown
 
 When writing issue bodies or choosing metadata, read [write-issues](../write-issues/SKILL.md) and its
 [permanent implementation reference](../write-issues/references/permanent-implementation.md). Before revising an
 existing issue, also read its [update guidance](../write-issues/references/update-existing-issue.md).
 
-Show linked existing issues and temporary keys for new ones, proposed bodies, blockers and reasons, ready leaves,
-parent-criteria coverage, edits, and material metadata. A draft request authorizes a draft. A create or revise request
-authorizes Linear updates once material questions are resolved; do not request a second approval for clear updates.
+Prepare linked existing issues and temporary keys for new ones, issue bodies, blockers and reasons, ready leaves,
+parent-criteria coverage, edits, and material metadata. A request to break down, create, or revise an issue authorizes
+the corresponding Linear updates once material questions are resolved. Do not request a second approval for clear updates.
+If the user explicitly requests a draft, present the proposal without writing to Linear.
 
 Use the parent's team and project and established metadata conventions. Leave new issues unassigned unless requested;
 do not copy execution state. Reuse valid children; preserve completed work and unrelated edits. Cancel an unstarted
@@ -65,9 +68,9 @@ result is uncertain, inspect the parent's children before retrying. Resume parti
 
 ## Verify and Hand Off
 
-Check coherent leaves, criteria and integration coverage, relationships, metadata, and settled requirements. For applied
-changes, read back descendants and dependencies to verify all writes; for drafts, verify the proposal. Do not close
-the parent before implementation and validation. Report partial updates as incomplete.
+Check coherent leaves, criteria and integration coverage, relationships, metadata, and settled requirements. Read back
+descendants and dependencies to verify applied changes. For a requested draft, verify the proposal. Do not close the
+parent before implementation and validation. Report partial updates as incomplete.
 
 Return the linked parent, concise hierarchy, ready leaves, blocked leaves with prerequisites, and gaps or incomplete
 operations. Use linked issue titles in user-facing text.
