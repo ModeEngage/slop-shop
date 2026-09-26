@@ -10,8 +10,8 @@ Planning is complete when all of these conditions hold:
 - The implementation issues cover every unmet project success criterion.
 - Dependencies accurately describe the required work order.
 
-Implementation issues do not need to fit one agent session for planning to be complete. The separate breakdown skill
-owns that division. Planning completion is provisional; new findings can require further planning.
+Implementation issues do not need decomposition for planning to be complete. The separate breakdown skill owns that
+work when requested. Planning completion is provisional; new findings can require further planning.
 
 A planning session can end before planning is complete when all currently definable work is recorded and further
 planning depends on exploratory findings. Report **Planning awaits findings** and identify the issues whose results

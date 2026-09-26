@@ -39,7 +39,7 @@ Create only work that can be specified with confidence. Create permanent impleme
 scope and acceptance decisions are settled. Keep unclear work in Not yet specified. Create issues directly in the
 project, without new organizational parents or sub-issues. Preserve existing parent relationships.
 
-Do not load break-down-implementation unless the task includes implementation breakdown. Large implementation
+Do not load break-down-implementation unless the task includes implementation breakdown. Broad implementation
 issues do not prevent planning completion; that separate skill owns their division.
 
 ## Maintain the Plan
