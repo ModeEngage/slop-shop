@@ -3,11 +3,11 @@
 ## 0.1.1 - 2026-09-26
 
 - **What**: Shorten the entrypoint, replace session-size rules with verifiable outcomes, defer issue-writing guidance,
-  use the interview skill for breakdown choices, and apply changes unless the user requests a draft.
+  map and verify native dependencies, use the interview skill for breakdown choices, and require approval before writes.
 - **Why**: Session duration is uncertain, early reference loading wastes context, and breakdown choices can need user
-  input without reopening product design.
-- **Evidence**: The user reported truncation and identified session-size, reference-loading, and draft-flow problems.
-- **Impact**: The workflow uses less context, divides work by observable boundaries, and routes questions by type.
+  input without reopening product design. The user must review the full breakdown before tracker changes.
+- **Evidence**: The user reported truncation, identified workflow problems, and emphasized approval and accurate blockers.
+- **Impact**: The workflow divides work by observable boundaries, verifies blocker direction, and waits for approval.
 - **Reference**: This session's requests and the `write-issues`, `interview`, and `plan-project` skills.
 
 ## 0.1.0 - 2026-09-15

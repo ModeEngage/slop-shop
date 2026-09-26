@@ -20,7 +20,7 @@ implementations.
 | `slop:research` | Investigate assigned questions and record answers, evidence, and unresolved gaps. |
 | `slop:interview` | Clarify decisions with the user and record the confirmed synthesis. |
 
-Use `break-down-implementation` to divide a permanent implementation issue into verifiable sub-issues.
+Use `break-down-implementation` to propose verifiable sub-issues for approval before creating them.
 Planning and breakdown do not start execution. Each execution skill defines its own completion requirements.
 
 ## Installation
