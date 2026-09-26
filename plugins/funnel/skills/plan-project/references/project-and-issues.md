@@ -45,7 +45,6 @@ settled. Until then, keep the prospective change in Not yet specified and create
 resolve those decisions. A decided implementation issue can still depend on other implementation work.
 
 Create issues directly in the project. Do not create organizational parent issues or sub-issues. The separate
-`break-down-implementation` skill divides permanent implementation issues that exceed one agent context window.
-Do not load that skill during project planning. Load it only when the task includes breaking down implementation
-issues. Do not force those issues into one session or perform that breakdown here. Preserve existing parent
-relationships when refining a project.
+`break-down-implementation` skill divides permanent implementation issues by verifiable outcomes when requested.
+For planning-only tasks, do not load or run it. When the task also includes breakdown, finish the project plan first.
+Preserve existing parent relationships when refining a project.

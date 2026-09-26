@@ -2,11 +2,11 @@
 
 ## 0.1.1 - 2026-09-26
 
-- **What**: Shorten the skill entrypoint while retaining its breakdown, dependency, update, and verification rules.
-- **Why**: The entrypoint was too long for Codex to load in full.
-- **Evidence**: The user reported that Codex truncates the skill during loading.
-- **Impact**: The breakdown workflow uses less context when Codex loads it.
-- **Reference**: This session's request and the existing `write-issues` guidance.
+- **What**: Shorten the skill entrypoint and replace session-size rules with checks for clear, verifiable outcomes.
+- **Why**: The entrypoint was too long, and an agent cannot reliably predict work duration by session.
+- **Evidence**: The user reported truncation and challenged the session-size requirement.
+- **Impact**: The workflow uses less context and divides work by observable boundaries instead of estimated duration.
+- **Reference**: This session's requests and the existing `write-issues` guidance.
 
 ## 0.1.0 - 2026-09-15
 

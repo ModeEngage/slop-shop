@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.2 - 2026-09-26
+
+- **What**: Describe implementation breakdown by verifiable outcomes instead of estimated session size.
+- **Why**: Session duration cannot be predicted reliably during planning.
+- **Evidence**: The user challenged session-size rules in the breakdown skill.
+- **Impact**: Project planning keeps broad implementation issues until breakdown is requested.
+- **Reference**: This session's review of the breakdown workflow.
+
 ## 0.1.1 - 2026-09-17
 
 - **What**: Move detailed content, dependency, replanning, verification, and handoff procedures into three linked

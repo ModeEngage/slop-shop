@@ -1,14 +1,14 @@
 ---
 name: break-down-implementation
 description: >-
-  Break a permanent implementation Linear issue into self-contained sub-issues that each fit one agent session,
-  with native dependencies and complete coverage of the parent outcome. Use when implementation work is too large
-  for one session or an existing breakdown needs revision. Does not implement or dispatch work.
+  Divide or revise a permanent implementation Linear issue into independently verifiable sub-issues, with native
+  dependencies and complete coverage of the parent outcome. Use when the user requests an implementation breakdown.
+  Does not implement or dispatch work.
 ---
 
 # Break Down Implementation
 
-Divide a decided implementation issue into separate agent sessions. The parent remains the feature contract.
+Divide a decided implementation issue into clear outcomes. The parent remains the feature contract.
 Stop after a verified breakdown. Do not implement, assign agents, or dispatch work.
 
 ## Establish the Contract
@@ -20,8 +20,8 @@ Read [write-issues](../write-issues/SKILL.md), its permanent implementation refe
 editing existing issues. Confirm settled scope and verifiable acceptance criteria. Ask only for material information
 that context cannot supply. Do not make suggested implementation details mandatory. Send product or research gaps that
 change the assignment to [plan-project](../plan-project/SKILL.md), or to the user without a project. Do not hide gaps
-in sub-issues; ordinary implementation choices need no planning round. If one session can finish the issue, report
-that no breakdown is needed. Do not create a single leaf merely to make a hierarchy.
+in sub-issues; ordinary implementation choices need no planning round. If no useful separate outcomes can be
+defined, report that no breakdown is needed. Do not create a single leaf merely to make a hierarchy.
 
 ## Divide the Outcome
 
@@ -31,11 +31,12 @@ direct children. An intermediate parent needs a combined outcome, with criteria 
 separate execution assignment.
 
 Each leaf needs an observable permanent outcome, settled criteria, relevant inputs, constraints, code paths or
-references, and validation expectations. It must fit one session, including context and verification. Name required
-outputs and handoffs. Ready leaves must run in parallel without conflicting edits or unstated coordination. Split,
-merge, or clarify leaves until this holds. Put detail in its owning leaf; link shared decisions instead of copying.
+references, and validation expectations. Give it enough context for an agent to start without prior chat history.
+Name required outputs and handoffs. Ready leaves must run in parallel without conflicting edits or unstated
+coordination. Split, merge, or clarify leaves until this holds. Put detail in its owning leaf; link shared decisions
+instead of copying. Do not split by predicted session length. Revise the breakdown if execution reveals new boundaries.
 
-Map every parent criterion to children. Assign integration and end-to-end validation to a suitable leaf, or a bounded
+Map every parent criterion to children. Assign integration and end-to-end validation to a suitable leaf, or a separate
 integration leaf when needed. Finished leaves alone do not prove the parent outcome.
 
 ## Set Relationships
@@ -61,7 +62,7 @@ result is uncertain, inspect the parent's children before retrying. Resume parti
 
 ## Verify and Hand Off
 
-Check session size, criteria and integration coverage, relationships, metadata, and settled requirements. For applied
+Check coherent leaves, criteria and integration coverage, relationships, metadata, and settled requirements. For applied
 changes, read back descendants and dependencies to verify all writes; for drafts, verify the proposal. Do not close
 the parent before implementation and validation. Report partial updates as incomplete.
 
