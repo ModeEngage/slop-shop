@@ -2,6 +2,10 @@
 
 Read the current issue, including relevant comments and assignment constraints, before building.
 
+Make a code artifact durable in Linear, not in a branch. Attach a source bundle to the issue, for example a `git bundle`
+of the local commits that names its required base commit. Also attach run instructions and output snapshots. The
+artifact link in the findings points to these attachments.
+
 Write the artifact link, collected human feedback, the human's iteration or completion decision, what was learned,
 and unresolved questions in a Markdown document. Attach the document to the issue and keep the original assignment intact.
 
