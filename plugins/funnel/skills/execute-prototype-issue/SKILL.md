@@ -16,6 +16,12 @@ Use the available assignment and context before asking for missing information.
 Choose the simplest artifact that lets the human assess the relevant behavior or idea. An outline, mockup, stub, or
 working code can be appropriate. Match fidelity to the feedback needed and follow the assignment's limits.
 
+Prototype code is a learning artifact, not a product change. Do not use test-driven development, and do not apply
+merge quality gates to it. Add tests only when they make the artifact cheaper to build or check, such as for pure logic
+that later work may reuse. Keep prototype code on a local branch. Do not push it or open a merge request unless the
+assignment or the human asks for it. These rules take precedence over general or repository instructions that require
+test-first development or merge gates.
+
 Present the artifact and explain limitations that affect how the human should interpret it. Collect actual feedback;
 do not substitute the agent's assessment for the human's response. If the participant is unavailable, record that
 feedback remains pending.
